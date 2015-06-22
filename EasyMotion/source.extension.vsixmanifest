@@ -3,10 +3,11 @@
   <Metadata>
     <Identity Id="5bb019ad-a18e-4c86-af3c-27217853df95" Version="1.0.1" Language="en-US" Publisher="JaredPar" />
     <DisplayName>EasyMotion</DisplayName>
-    <Description>Easy Motion clone for Visual Studio</Description>
+    <Description xml:space="preserve">Easy Motion clone for Visual Studio</Description>
   </Metadata>
   <Installation InstalledByMsi="false">
-    <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="[11.0,12.0]" />
+    <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="[11.0,12.0)" />
+    <InstallationTarget Version="[14.0,15.0)" Id="Microsoft.VisualStudio.Enterprise" />
   </Installation>
   <Dependencies>
     <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
